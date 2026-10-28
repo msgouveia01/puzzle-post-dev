@@ -1,0 +1,58 @@
+{
+  "games": [
+    {
+      "slug": "bad-day",
+      "title": "Bad Day",
+      "pitch": "A tiny daily game for programmers. You see a 10-line code snippet with exactly one bug and pick the bad line. If you're stuck, hints reveal first what the code outputs, then its stack trace. Small, quick, and the result is easy to share.",
+      "status": "ready-for-review",
+      "launchDate": "2026-10-26",
+      "source": "prototypes/bad-day",
+      "hash": "5c44f344b7d679e8"
+    },
+    {
+      "slug": "bet-the-range",
+      "title": "Bet the Range",
+      "pitch": "A calibration game. There are 3–5 questions a day with numeric answers, and instead of a single guess you set a range for each. A narrow range that still contains the answer scores best, so you're rewarded for knowing how sure you really are. The share grid shows how bold you were.",
+      "status": "ready-for-review",
+      "launchDate": "2026-10-26",
+      "source": "prototypes/bet-the-range",
+      "hash": "01088cc359e43b83"
+    },
+    {
+      "slug": "contemporaries",
+      "title": "Contemporaries",
+      "pitch": "A history deduction game. Each day you're shown three historical figures and must pick the two who could have met. Working it out means reasoning about when each person lived and where they were, not memorising dates in order.",
+      "status": "ready-for-review",
+      "launchDate": "2026-10-27",
+      "source": "prototypes/contemporaries",
+      "hash": "136d217d45382c0d"
+    },
+    {
+      "slug": "cross-section",
+      "title": "Cross-Section",
+      "pitch": "A quick visual guessing game. Each day you see an X-ray or cutaway view of an everyday object (a lock, a zipper, a pen) and try to name it. Every wrong guess reveals more of the object's outside, so the picture slowly gives the answer away.",
+      "status": "ready-for-review",
+      "launchDate": "2026-10-27",
+      "source": "prototypes/cross-section",
+      "hash": "0081ed0b4ae1906d"
+    },
+    {
+      "slug": "flag-fragments",
+      "title": "Flag Fragments",
+      "pitch": "Each day a country's flag is hidden behind a 3×3 grid of tiles. You start with one tile revealed and guess the country; every wrong guess reveals another tile and tells you how far away (in km) and in which direction your guess is from the answer. Six guesses.",
+      "status": "ready-for-review",
+      "launchDate": "2026-10-27",
+      "source": "prototypes/flag-fragments",
+      "hash": "e08ef78aaf48fc15"
+    },
+    {
+      "slug": "mapdate",
+      "title": "Mapdate",
+      "pitch": "History meets geography. Each day you see a political map from an unknown year and guess which year it shows. The borders and country names on the map are your only clues: spot when an empire still exists, a country has split, or a name has changed. You're scored on how close your guess lands to the real year.",
+      "status": "ready-for-review",
+      "launchDate": "2026-10-26",
+      "source": "prototypes/mapdate",
+      "hash": "f6272537c1d4207b"
+    }
+  ]
+}

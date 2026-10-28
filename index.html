@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Puzzle Post · games in development</title>
+<meta name="description" content="New daily puzzle games from Puzzle Post, still in development.">
+<style>
+:root{--bg:#ffd84d;--dots:#ffcb1f;--paper:#fffaf0;--ink:#1d1a2f;--muted:#5b5670;--accent:#ff5d73;--accent-2:#2ec4b6;
+--font:ui-rounded,'SF Pro Rounded','Nunito','Varela Round','Segoe UI',system-ui,sans-serif}
+*{box-sizing:border-box}
+body{margin:0;min-height:100dvh;font-family:var(--font);color:var(--ink);background:var(--bg) radial-gradient(var(--dots) 2px,transparent 2px) 0 0/22px 22px}
+main{max-width:960px;margin:0 auto;padding:2rem 16px 4rem}
+header{text-align:center;margin-bottom:2rem}
+h1{font-size:clamp(2.2rem,8vw,3.6rem);margin:0;letter-spacing:-.02em}
+.sub{font-size:1.1rem;color:var(--muted);margin:.4rem 0 0}
+.badge{display:inline-block;background:var(--accent-2);border:3px solid var(--ink);border-radius:999px;padding:.15rem .8rem;font-weight:800;font-size:.85rem;margin-bottom:.8rem;box-shadow:0 3px 0 var(--ink)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1.2rem}
+.card{display:flex;flex-direction:column;gap:.4rem;background:var(--paper);border:3px solid var(--ink);border-radius:18px;padding:1.1rem 1.2rem;
+color:inherit;text-decoration:none;box-shadow:0 5px 0 var(--ink);transition:transform .12s,box-shadow .12s}
+.card:hover,.card:focus-visible{transform:translateY(-3px);box-shadow:0 8px 0 var(--ink);outline:none}
+.card:active{transform:translateY(3px);box-shadow:0 2px 0 var(--ink)}
+.card h2{margin:0;font-size:1.45rem}
+.card p{margin:0;color:var(--muted);flex:1;line-height:1.45}
+.tag{align-self:flex-start;font-size:.75rem;font-weight:800;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.play{align-self:flex-start;margin-top:.6rem;background:var(--accent);color:#fff;border:3px solid var(--ink);border-radius:12px;padding:.45rem 1rem;font-weight:800;box-shadow:0 3px 0 var(--ink)}
+.empty{text-align:center;color:var(--muted)}
+footer{text-align:center;color:var(--muted);font-size:.9rem;margin-top:2.5rem}
+@media (prefers-reduced-motion:reduce){.card{transition:none}}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <span class="badge">In development</span>
+  <h1>Puzzle Post</h1>
+  <p class="sub">New daily puzzles, fresh out of the workshop. A new puzzle every day.</p>
+</header>
+<div class="grid">
+<a class="card" href="bad-day/">
+  <span class="tag">Prototype</span>
+  <h2>Bad Day</h2>
+  <p>A tiny daily game for programmers. You see a 10-line code snippet with exactly one bug and pick the bad line. If you're stuck, hints reveal first what the code outputs, then its stack trace. Small, quick, and the result is easy to share.</p>
+  <span class="play">Play ▶</span>
+</a>
+<a class="card" href="bet-the-range/">
+  <span class="tag">Prototype</span>
+  <h2>Bet the Range</h2>
+  <p>A calibration game. There are 3–5 questions a day with numeric answers, and instead of a single guess you set a range for each. A narrow range that still contains the answer scores best, so you're rewarded for knowing how sure you really are. The share grid shows how bold you were.</p>
+  <span class="play">Play ▶</span>
+</a>
+<a class="card" href="contemporaries/">
+  <span class="tag">Prototype</span>
+  <h2>Contemporaries</h2>
+  <p>A history deduction game. Each day you're shown three historical figures and must pick the two who could have met. Working it out means reasoning about when each person lived and where they were, not memorising dates in order.</p>
+  <span class="play">Play ▶</span>
+</a>
+<a class="card" href="cross-section/">
+  <span class="tag">Prototype</span>
+  <h2>Cross-Section</h2>
+  <p>A quick visual guessing game. Each day you see an X-ray or cutaway view of an everyday object (a lock, a zipper, a pen) and try to name it. Every wrong guess reveals more of the object's outside, so the picture slowly gives the answer away.</p>
+  <span class="play">Play ▶</span>
+</a>
+<a class="card" href="flag-fragments/">
+  <span class="tag">Prototype</span>
+  <h2>Flag Fragments</h2>
+  <p>Each day a country's flag is hidden behind a 3×3 grid of tiles. You start with one tile revealed and guess the country; every wrong guess reveals another tile and tells you how far away (in km) and in which direction your guess is from the answer. Six guesses.</p>
+  <span class="play">Play ▶</span>
+</a>
+<a class="card" href="mapdate/">
+  <span class="tag">Prototype</span>
+  <h2>Mapdate</h2>
+  <p>History meets geography. Each day you see a political map from an unknown year and guess which year it shows. The borders and country names on the map are your only clues: spot when an empire still exists, a country has split, or a name has changed. You're scored on how close your guess lands to the real year.</p>
+  <span class="play">Play ▶</span>
+</a>
+</div>
+<footer>Early versions: things may change or break. Your progress is saved on this device only.</footer>
+</main>
+</body>
+</html>
