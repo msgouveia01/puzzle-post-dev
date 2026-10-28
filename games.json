@@ -1,6 +1,16 @@
 {
   "games": [
     {
+      "slug": "mapdate",
+      "title": "Mapdate",
+      "pitch": "History meets geography. Each day you see a political map from an unknown year and guess which year it shows. The borders and country names on the map are your only clues: spot when an empire still exists, a country has split, or a name has changed. You're scored on how close your guess lands to the real year.",
+      "status": "ready-for-review",
+      "launchDate": "2026-10-26",
+      "source": "prototypes/mapdate",
+      "hash": "f6272537c1d4207b",
+      "dev": true
+    },
+    {
       "slug": "bad-day",
       "title": "Bad Day",
       "pitch": "A tiny daily game for programmers. You see a 10-line code snippet with exactly one bug and pick the bad line. If you're stuck, hints reveal first what the code outputs, then its stack trace. Small, quick, and the result is easy to share.",
@@ -48,16 +58,6 @@
       "launchDate": "2026-10-27",
       "source": "prototypes/flag-fragments",
       "hash": "e08ef78aaf48fc15",
-      "dev": false
-    },
-    {
-      "slug": "mapdate",
-      "title": "Mapdate",
-      "pitch": "History meets geography. Each day you see a political map from an unknown year and guess which year it shows. The borders and country names on the map are your only clues: spot when an empire still exists, a country has split, or a name has changed. You're scored on how close your guess lands to the real year.",
-      "status": "ready-for-review",
-      "launchDate": "2026-10-26",
-      "source": "prototypes/mapdate",
-      "hash": "f6272537c1d4207b",
       "dev": false
     }
   ]
