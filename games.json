@@ -79,6 +79,26 @@
       "source": "prototypes/mapdate",
       "hash": "f6272537c1d4207b",
       "dev": false
+    },
+    {
+      "slug": "overlap",
+      "title": "Overlap",
+      "pitch": "A history numbers game. You get two historical figures and enter how many years they were both alive; zero is a valid answer. The reveal draws both lifespans on a timeline, so you see why Newton and Leibniz overlapped for decades while Plato and Aristotle never overlapped with Cleopatra.",
+      "status": "ready-for-review",
+      "dev": false,
+      "launchDate": "2026-10-29",
+      "source": "prototypes/overlap",
+      "hash": "d9e9b858ba325551"
+    },
+    {
+      "slug": "pull-it",
+      "title": "Pull It",
+      "pitch": "A timing game. A sped-up time-lapse shows food cooking, such as a searing steak or toasting bread. You tap the moment it looks perfectly done. You're scored on how many seconds you were off, and the reveal marks the ideal moment on the timeline.",
+      "status": "ready-for-review",
+      "dev": false,
+      "launchDate": "2026-10-29",
+      "source": "prototypes/pull-it",
+      "hash": "ccb2fcf585ec0f17"
     }
   ]
 }
