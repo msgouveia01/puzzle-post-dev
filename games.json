@@ -21,6 +21,16 @@
       "dev": false
     },
     {
+      "slug": "cascade",
+      "title": "Cascade",
+      "pitch": "An ecology logic game. Each day shows a small food web of 6 to 9 species (grass, rabbits, foxes, hawks and so on). You run two experiments: remove a species and see which others rise or fall. Then you predict what happens to every remaining species if a third one is removed. The score is how many up/down calls you got right, and the share grid is a row of arrows.",
+      "status": "ready-for-review",
+      "dev": false,
+      "launchDate": "2026-10-29",
+      "source": "prototypes/cascade",
+      "hash": "8cd969c755b7a42b"
+    },
+    {
       "slug": "contemporaries",
       "title": "Contemporaries",
       "pitch": "A history deduction game. Each day you're shown three historical figures and must pick the two who could have met. Working it out means reasoning about when each person lived and where they were, not memorising dates in order.",
@@ -39,6 +49,16 @@
       "source": "prototypes/cross-section",
       "hash": "0081ed0b4ae1906d",
       "dev": false
+    },
+    {
+      "slug": "earshot",
+      "title": "Earshot",
+      "pitch": "A listening and geography game. You hear about 8 seconds of a real speaker and drop a pin on the map where that language or dialect is spoken. You're scored by distance, so landing in the right region counts even if you can't name the language. The hard mode uses dialects of one language, such as Spanish from Madrid versus Mexico City.",
+      "status": "ready-for-review",
+      "dev": false,
+      "launchDate": "2026-10-29",
+      "source": "prototypes/earshot",
+      "hash": "86ea4d67ab19f5d0"
     },
     {
       "slug": "flag-fragments",
